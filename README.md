@@ -30,21 +30,7 @@ A full-stack SaaS-style application that demonstrates secure user authentication
 
 ---
 
-## 🚀 How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/poornapegada/saas-clone.git
-cd saas-clone
-cd server
-npm install
-cp .env.example .env  # Add your DB connection string & JWT_SECRET
-node index.js
-cd ../client
-npm install
-npm start
-saas-clone/
+## 🚀 Project structure 
 ├── client/         # React frontend
 │   └── src/
 │       ├── App.js
