@@ -38,3 +38,28 @@ A full-stack SaaS-style application that demonstrates secure user authentication
 ```bash
 git clone https://github.com/poornapegada/saas-clone.git
 cd saas-clone
+cd server
+npm install
+cp .env.example .env  # Add your DB connection string & JWT_SECRET
+node index.js
+cd ../client
+npm install
+npm start
+saas-clone/
+├── client/         # React frontend
+│   └── src/
+│       ├── App.js
+│       ├── Login.js
+│       ├── Register.js
+│       ├── Dashboard.js
+│       └── utils.js
+├── server/         # Node/Express backend
+│   ├── routes/
+│   │   ├── auth.js
+│   │   └── user.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── db.js
+│   └── index.js
+├── .env.example    # Sample environment file
+├── README.md
