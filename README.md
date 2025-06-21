@@ -4,7 +4,6 @@ A full-stack SaaS-style application that demonstrates secure user authentication
 
 > 🔐 Built with **React**, **Node.js**, **Express**, **PostgreSQL**, and **JWT**  
 > 💻 Designed to simulate a real-world SaaS login system with database-backed user flow  
-> 🎯 Perfect for showcasing backend + frontend integration skills
 
 ---
 
