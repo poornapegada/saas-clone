@@ -29,22 +29,4 @@ A full-stack SaaS-style application that demonstrates secure user authentication
 | Dev Tools  | VS Code, Git, GitHub |
 
 ---
-
-## 🚀 Project structure 
-├── client/         # React frontend
-│   └── src/
-│       ├── App.js
-│       ├── Login.js
-│       ├── Register.js
-│       ├── Dashboard.js
-│       └── utils.js
-├── server/         # Node/Express backend
-│   ├── routes/
-│   │   ├── auth.js
-│   │   └── user.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── db.js
-│   └── index.js
-├── .env.example    # Sample environment file
-├── README.md
+    
